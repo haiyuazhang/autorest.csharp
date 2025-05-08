@@ -1,5 +1,9 @@
 {
   "profiles": {
+    "MgmtTypeSpec": {
+      "commandName": "Project",
+      "commandLineArgs": "--standalone $(SolutionDir)\\test\\TestProjects\\MgmtTypeSpec\\src\\Generated -n"
+    },
     "Accessibility": {
       "commandName": "Project",
       "commandLineArgs": "--standalone $(SolutionDir)\\test\\TestProjects\\Accessibility\\Generated"
@@ -443,10 +447,6 @@
     "MgmtSupersetInheritance": {
       "commandName": "Project",
       "commandLineArgs": "--standalone $(SolutionDir)\\test\\TestProjects\\MgmtSupersetInheritance\\src\\Generated -n"
-    },
-    "MgmtTypeSpec": {
-      "commandName": "Project",
-      "commandLineArgs": "--standalone $(SolutionDir)\\test\\TestProjects\\MgmtTypeSpec\\src\\Generated -n"
     },
     "MgmtXmlDeserialization": {
       "commandName": "Project",
